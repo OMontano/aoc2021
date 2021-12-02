@@ -1,0 +1,27 @@
+{
+  "name": "aoc2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix --format table --cache .",
+    "test": "NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OMontano/aoc2021.git"
+  },
+  "author": "OMontano",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^27.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/OMontano/aoc2021/issues"
+  },
+  "homepage": "https://github.com/OMontano/aoc2021#readme"
+}
