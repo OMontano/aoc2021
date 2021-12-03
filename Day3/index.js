@@ -15,9 +15,9 @@ const day3 = {
     const gr = parseInt(res1.join(''), 2);
     const er = parseInt(res1.map(v => v ? 0: 1).join(''), 2);
 
-    console.log(`gr = ${JSON.stringify(gr)}`)
-    console.log(`er = ${JSON.stringify(er)}`)
-    console.log(`res = ${JSON.stringify(gr * er)}`)
+    console.log(`gr = ${gr}`)
+    console.log(`er = ${er}`)
+    console.log(`res = ${gr * er}`)
     
     const ox = parseInt([...list[0]].reduce((p, c, i) => {
       const compval = p.reduce((p1, v1) => (v1[i] * 1) + p1, 0) >= (p.length / 2) ? 1 : 0;
@@ -29,9 +29,9 @@ const day3 = {
       return p.length > 1 ? p.filter( v => (v[i] * 1) === compval ) : p
     }, list), 2)
 
-    console.log(`ox = ${JSON.stringify(ox)}`)
-    console.log(`co2 = ${JSON.stringify(co2)}`)
-    console.log(`res2 = ${JSON.stringify(ox * co2)}`)
+    console.log(`ox = ${ox}`)
+    console.log(`co2 = ${co2}`)
+    console.log(`res2 = ${ox * co2}`)
   }
 }
 
